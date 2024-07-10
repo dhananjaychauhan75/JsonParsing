@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var tblView: UITableView!
     @IBOutlet weak var txtView: UITextView!
     @IBOutlet weak var btnConvert: UIButton!
-    
+    var item1: String?
     var dicData = [String:String]()
     var arrData = [Result]()
     override func viewDidLoad() {
